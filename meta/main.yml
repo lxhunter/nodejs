@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Alexander Jäger
+  description: Nodejs Role
+  company: brandfrisch
+  license: MIT
+
+  min_ansible_version: 2.3
+  platforms:
+  - name: Ubuntu
+    versions:
+     - wily
+     - xenial
+
+  galaxy_tags: []
+
+dependencies: []

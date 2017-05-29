@@ -1,0 +1,17 @@
+---
+dependency:
+  name: galaxy
+
+driver:
+  name: docker
+
+docker:
+  containers:
+    - name: nodejs
+      image: proudmail/ubuntu-16.04
+      image_version: 'latest'
+      command: /lib/systemd/systemd
+      privileged: true
+
+verifier:
+  name: goss
